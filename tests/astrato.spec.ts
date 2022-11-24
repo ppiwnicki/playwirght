@@ -15,7 +15,7 @@ test.beforeEach(async ({ page }) => {
   let loginPage = new LoginPage(page)
   workbooksPage = new WorkbooksPage(page);
   email = 'piotrpiwnicki1@gmail.com'
-  password = 'Czwartek90!'
+  password = 'Abcd1234!'
 
   await loginPage.open();
   await loginPage.loginWithEmailAndPassword(email, password)
