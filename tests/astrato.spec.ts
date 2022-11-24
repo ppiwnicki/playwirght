@@ -3,7 +3,7 @@ import { AdministrationPage } from '../page-objects/AdministrationPage';
 import { ConfirmationPanel } from '../page-objects/ConfirmationPanel';
 import { LoginPage } from '../page-objects/LoginPage';
 import { SystemSettingsGeneralPage } from '../page-objects/SystemSettingsGeneralPage';
-import { WorkbooksPage } from '../page-objects/Workbooks';
+import { WorkbooksPage } from '../page-objects/WorkbooksPage';
 
 test.describe.configure({ mode: 'parallel' });
 
